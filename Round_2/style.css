@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel';
+    
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.nav{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-right: 5%;
+}
+
+
+.nav li{
+    color: blueviolet;
+    list-style: none;
+    padding: 32px 15px;
+}
+.nav li:hover{
+    color: black;
+    border: 3px solid white;
+    border-radius: 30%;
+    background-color: none;
+    padding: 32px 15px;
+}
+
+.nav li a{
+    text-decoration: none;
+    margin: 14px;
+    text-transform: uppercase;
+}
+
+
+.banner{
+    /* position: relative; */
+    /* display: flex; */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/sensitive2.webp"); 
+    background-repeat: no-repeat;
+    -webkit-backdrop-size: cover;
+    background-size: cover;
+}   
+.boxmain{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: auto;
+}
+.hero{
+    font-family: 'Cinzel';
+    font-size: 22px;
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+}
+.hero_logo{
+    width: 30%;
+}
+.hero_logo img{
+    width: 70%;
+    padding: 4px 0;
+    border: 4px solid white;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+    
+} 
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+}
+.logo img{
+    width: 100px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.description{
+    text-align: center;
+    font-family: 'Cinzel';
+    font-size: 22px;
+    background-color: #979A9B;
+    padding: 50px;
+}
+.description p{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-weight: 0;
+}
+
+.symbol{
+    background: no-repeat;
+    mix-blend-mode: multiply;
+    filter: contrast(2);
+    margin: -130px 0;
+}
+
+.history{
+    font-family: 'Cinzel';
+    background: url("images/bg2.jpg");
+    min-height: 200px; 
+	background-attachment: fixed; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+
+
+
+.history h1{
+    text-align: center;
+}
+.history .text{
+    text-align: center;
+}
+
+.history .firstdiv{
+    display: flex;
+}
+.history .seconddiv{
+    display: flex;
+}
+.history .firstdiv .firsthalf{
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+.history .seconddiv .secondhalf{
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+.history .firstdiv .secondhalf{
+    width: 30%;
+}
+.history .seconddiv .firsthalf{
+    width: 30%;
+}
+
+.history .firstdiv .secondhalf img{
+    width: 70%;
+}
+.history .seconddiv .firsthalf img{
+    margin: 61px -4px;
+    width: 90%;
+}
+
+.top img{
+    width: 10%;
+}
+.blog{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.blog button{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    color: #979A9B;
+    cursor: pointer;
+    overflow: pointer;
+    overflow: hidden;
+    text-transform: uppercase
+}
+.blog span{
+    background: ;
+    height: ;
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: ;
+    transition: ;
+}
